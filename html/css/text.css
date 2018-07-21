@@ -1,0 +1,68 @@
+.wrapper {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  font-family: arial unicode ms;
+  text-align: center;
+}
+
+.main {
+  /*  text-decoration: underline;*/
+  font-size: 45px;
+  background-image: url("../jpg/water.jpg");
+  text-shadow: 2px 2px 4px silver;
+  /*影*/
+}
+
+.main p .bold {
+  font-size: 70px;
+}
+
+nav {
+  width: 100%;
+}
+
+.list-nav00 {
+  width: 980px;
+  margin: 0 auto;
+  display: table;
+}
+
+.list-nav00 li {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.list-nav00 li:first-child a {
+  border-left: 1px solid black;
+}
+
+.list-nav00 a {
+  width: 326.67px;
+  height: 70px;
+  vertical-align: middle;
+  display: table-cell;
+  background: #006699;
+  border-right: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: #003366;
+}
+
+a:hover {
+  color: #003366;
+}
+
+a:active {
+  color: white;
+}
